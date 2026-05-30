@@ -1,4 +1,4 @@
-module not_gate_tb;
+module notgate_tb;
 reg A;
 reg expected;
 wire Y;
@@ -9,6 +9,8 @@ not_gate uut(
 );
 
 initial begin
+    $dumpfile("not_wave.vcd");
+    $dumpvars(0,notgate_tb);
     $display("A | Y");
     A=0; expected=~A; #10;
     $display("%b | %b",A,Y);
@@ -21,3 +23,4 @@ initial begin
     $finish;
 end
 endmodule
+     
