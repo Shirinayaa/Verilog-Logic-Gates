@@ -11,6 +11,7 @@ Implemented Gates:
 * NOT Gate
 * XOR Gate
 * NAND Gate
+* NOR Gate
 
 ## Learning Objectives
 
@@ -105,6 +106,24 @@ Truth Table:
 
 ---
 
+# NAND Gate
+
+Logic:
+
+Y = ~(A | B)
+
+Truth Table:
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+
+---
+
+
 # Files
 
 * and_gate.v
@@ -112,6 +131,7 @@ Truth Table:
 * not_gate.v
 * xor_gate.v
 * nand_gate.v
+* nor_gate.v
 
 Testbenches:
 
@@ -120,6 +140,7 @@ Testbenches:
 * not_gate_tb.v
 * xor_gate_tb.v
 * nand_gate_tb.v
+* nor_gate_tb.v
 
 ---
 
@@ -136,6 +157,8 @@ Logic gate simulation waveform generated using GTKWave.
 [XOR Gate Waveform](screenshots/xor_gate_waveform.png)
 
 [NAND Gate Waveform](screenshots/nand_gate_waveform.png)
+
+[NOR Gate Waveform](screenshots/nor_gate_waveform.png)
 
 ---
 
