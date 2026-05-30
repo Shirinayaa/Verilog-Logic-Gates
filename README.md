@@ -89,6 +89,8 @@ AND gate simulation waveform generated using GTKWave.
 
 ![AND Gate Waveform](screenshots/and_gate_waveform.png)
 
+---
+
 # Tools Used
 
 * Verilog HDL
