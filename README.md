@@ -87,11 +87,11 @@ Testbenches:
 
 Logic gate simulation waveform generated using GTKWave.
 
-![AND Gate Waveform](screenshots/and_gate_waveform.png.png)
+[AND Gate Waveform](screenshots/and_gate_waveform.png.png)
 
-![OR Gate Waveform](screenshots/or_gate_waveform.png)
+[OR Gate Waveform](screenshots/or_gate_waveform.png)
 
-![NOT Gate Waveform](screenshots/not_gate_waveform.png)
+[NOT Gate Waveform](screenshots/not_gate_waveform.png)
 
 ---
 
