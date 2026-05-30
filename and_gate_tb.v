@@ -12,6 +12,8 @@ and_gate uut (
 );
 
 initial begin
+    $dumpfile("wave.vcd");
+    $dumpvars(0, and_gate_tb);
     $display("A B | Y");
 
     A = 0; B = 0; #10;
