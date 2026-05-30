@@ -129,6 +129,7 @@ Truth Table:
 Logic:
 
 SUM = A ^ B
+
 CARRY = A & B
 
 Truth Table:
