@@ -12,6 +12,7 @@ Implemented Gates:
 * XOR Gate
 * NAND Gate
 * NOR Gate
+* Half Adder Gate
 
 ## Learning Objectives
 
@@ -106,7 +107,7 @@ Truth Table:
 
 ---
 
-# NAND Gate
+# NOR Gate
 
 Logic:
 
@@ -123,6 +124,24 @@ Truth Table:
 
 ---
 
+# Half Adder Gate
+
+Logic:
+
+SUM = A ^ B
+CARRY = A & B
+
+Truth Table:
+
+| A | B | SUM | CARRY |
+| - | - |  -  |   -   |
+| 0 | 0 |  0  |   0   |
+| 0 | 1 |  1  |   0   |
+| 1 | 0 |  1  |   0   |
+| 1 | 1 |  0  |   1   |
+
+---
+
 
 # Files
 
@@ -132,6 +151,7 @@ Truth Table:
 * xor_gate.v
 * nand_gate.v
 * nor_gate.v
+* half_adder.v
 
 Testbenches:
 
@@ -141,6 +161,7 @@ Testbenches:
 * xor_gate_tb.v
 * nand_gate_tb.v
 * nor_gate_tb.v
+* half_adder_tb.v
 
 ---
 
@@ -159,6 +180,8 @@ Logic gate simulation waveform generated using GTKWave.
 [NAND Gate Waveform](screenshots/nand_gate_waveform.png)
 
 [NOR Gate Waveform](screenshots/nor_gate_waveform.png)
+
+[Half Adder Gate Waveform](screenshots/half_adder_waveform.png)
 
 ---
 
