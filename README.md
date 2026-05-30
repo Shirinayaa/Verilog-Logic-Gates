@@ -9,6 +9,7 @@ Implemented Gates:
 * AND Gate
 * OR Gate
 * NOT Gate
+* XOR Gate
 
 ## Learning Objectives
 
