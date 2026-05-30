@@ -11,6 +11,8 @@ or_gate uut(
 );
 
 initial begin
+    $dumpfile("or_wave.vcd");
+    $dumpvars(0,or_gate_tb);
     $display("A B | Y");
     A=0; B=0; 
     expected= 0|0;
@@ -39,4 +41,3 @@ initial begin
     $finish;
 end
 endmodule
-
