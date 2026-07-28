@@ -43,7 +43,7 @@ Simulation performed using **Icarus Verilog** and **GTKWave**.
 
 ### Waveform
 
-![Waveform](and_gate_waveform.png)
+[Waveform](and_gate_waveform.png)
 
 ---
 
@@ -51,7 +51,7 @@ Simulation performed using **Icarus Verilog** and **GTKWave**.
 
 Generated using **AMD Vivado 2025.1**.
 
-![RTL Schematic](and_gate_rtl_schematic.png)
+[RTL Schematic](and_gate_rtl_schematic.png)
 
 ---
 
